@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: rgba(255, 217, 0, 0.466);
+}
+/* inicio header */
+
+header{
+    position: sticky;
+    top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(12, 12, 12);
+
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+
+
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+   color: white;
+}
+
+
+
+
+/* final del header */
+
+
+
+
+/* inicio del main */
+section{
+    height: 90vh;
+    width: calc(100% - 10px);
+}
+
+section#hero {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: white;
+
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+.project-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+.project-detail{
+    border: 2px solid red;
+    width: calc(33.333% - 20px);
+    margin: 10px;
+   
+    
+
+}
+
+.project-detail img{
+    width: 100%;
+    
+}
+
+
+
+section#contact h2 {
+    border-bottom: 2px solid black;
+    
+    
+    
+    
+
+   
+}
+
+section#contact label{
+    padding: 5px;
+    display: flex;
+    margin-left: 20px;
+}
+
+
+
+section#contact .contacto input,textarea{
+    width:calc(33.333% - 20px);
+    border: 2px solid #0a0a0a;
+    padding:10px;
+    font-size:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+
+
+}
+
+.btn-enviar{
+    width:100px;
+    height:35px;
+    margin: 20px;
+    cursor:pointer;
+    background-color: crimson;
+    border: 2px solid gold;
+    color: gold;
+    font-weight: bold;
+    text-decoration: dotted;
+    font-family: fantasy;
+    
+}
+
+
+
+
+
+/* final del main */
